@@ -1,9 +1,9 @@
-version: 1.0.6
+version: 1.0.7
 files:
-  - url: ccv-plus-1.0.6-x86_64.AppImage
-    sha512: P/hg3FX/936gwcj+Y4FVv6vi8QctgWd3P3bEezvH9Am6gau3KqtPdd6bmFcpsN9FhYpKbMcuLP9HvgaOUBXcKw==
-    size: 106173568
-    blockMapSize: 111764
-path: ccv-plus-1.0.6-x86_64.AppImage
-sha512: P/hg3FX/936gwcj+Y4FVv6vi8QctgWd3P3bEezvH9Am6gau3KqtPdd6bmFcpsN9FhYpKbMcuLP9HvgaOUBXcKw==
-releaseDate: '2025-08-17T19:07:21.766Z'
+  - url: ccv-plus-1.0.7-x86_64.AppImage
+    sha512: UXnMGhE9RD+k6wHTx6dhPX4c+K5HcMjLRm3BWcSatnyhRDrpYPrspMAz6JLOjfXKyAGMyNxOMbWD5qhkuziflA==
+    size: 106513850
+    blockMapSize: 112078
+path: ccv-plus-1.0.7-x86_64.AppImage
+sha512: UXnMGhE9RD+k6wHTx6dhPX4c+K5HcMjLRm3BWcSatnyhRDrpYPrspMAz6JLOjfXKyAGMyNxOMbWD5qhkuziflA==
+releaseDate: '2025-08-17T19:58:28.041Z'

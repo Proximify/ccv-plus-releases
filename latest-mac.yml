@@ -1,8 +1,8 @@
-version: 1.0.6
+version: 1.0.7
 files:
-  - url: ccv-plus-1.0.6.dmg
-    sha512: XEaDFR6pETqH/9wz3ZIk6ugg9Nx1zAh8qbokIDplebeDdifT/HUZRYQ2pTvXAHlO0IYJ/CIzKxRa90uVL9NDPQ==
-    size: 174667515
-path: ccv-plus-1.0.6.dmg
-sha512: XEaDFR6pETqH/9wz3ZIk6ugg9Nx1zAh8qbokIDplebeDdifT/HUZRYQ2pTvXAHlO0IYJ/CIzKxRa90uVL9NDPQ==
-releaseDate: '2025-08-17T19:07:31.620Z'
+  - url: ccv-plus-1.0.7.dmg
+    sha512: lbysWkpn0KWbfnWx7sXAWKZdxEVdJOSw78ahNZHn0PgLv7uCNRh+jFyjZxjsO0dGL3w+iKxyZ0UTGeKWcnKXSQ==
+    size: 101305541
+path: ccv-plus-1.0.7.dmg
+sha512: lbysWkpn0KWbfnWx7sXAWKZdxEVdJOSw78ahNZHn0PgLv7uCNRh+jFyjZxjsO0dGL3w+iKxyZ0UTGeKWcnKXSQ==
+releaseDate: '2025-08-17T19:59:59.393Z'

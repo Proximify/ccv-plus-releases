@@ -1,8 +1,8 @@
-version: 1.0.6
+version: 1.0.7
 files:
-  - url: ccv-plus-setup-1.0.6.exe
-    sha512: MoPCaNLuarHHczAaT8BfKJI1OG5XLVFGYGt/VZwfVNpQKqTi09eR1N0D6wkHaJHSfGTNbljoNv448fdf3LRlyQ==
-    size: 77261288
-path: ccv-plus-setup-1.0.6.exe
-sha512: MoPCaNLuarHHczAaT8BfKJI1OG5XLVFGYGt/VZwfVNpQKqTi09eR1N0D6wkHaJHSfGTNbljoNv448fdf3LRlyQ==
-releaseDate: '2025-08-17T19:08:20.489Z'
+  - url: ccv-plus-setup-1.0.7.exe
+    sha512: 2DtQDmWeYVI2zuFBcrILgL6wEdjNClC8afYRXIvs4qLoD16iJm5mCSVdhQrDKxmFH+gg2b/zEWqiGgeeKSgPoA==
+    size: 77498003
+path: ccv-plus-setup-1.0.7.exe
+sha512: 2DtQDmWeYVI2zuFBcrILgL6wEdjNClC8afYRXIvs4qLoD16iJm5mCSVdhQrDKxmFH+gg2b/zEWqiGgeeKSgPoA==
+releaseDate: '2025-08-17T19:59:22.143Z'
