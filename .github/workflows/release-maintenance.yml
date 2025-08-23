@@ -1,0 +1,40 @@
+name: Release maintenance (simple)
+
+on:
+  # Weekly on Sundays at 03:15 UTC; also supports manual runs
+  schedule:
+    - cron: "15 3 * * 0"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Preview without deleting"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write # needed to delete releases/assets/tags
+
+env:
+  KEEP_RELEASES: "5" # Keep newest N releases, delete everything older
+  DELETE_TAGS: "true" # Also delete the tags for deleted releases
+
+jobs:
+  prune-releases:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Delete older releases
+        if: ${{ github.event.inputs.dry_run != 'true' }}
+        uses: dev-drprasad/delete-older-releases@v0.3.3
+        with:
+          keep_latest: ${{ env.KEEP_RELEASES }}
+          delete_tags: ${{ env.DELETE_TAGS }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Dry run (show which releases would be kept)
+        if: ${{ github.event.inputs.dry_run == 'true' }}
+        run: |
+          echo "Dry run: showing the latest $KEEP_RELEASES releases (no deletions)."
+          gh release list --limit "$KEEP_RELEASES"
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
